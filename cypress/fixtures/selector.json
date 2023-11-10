@@ -1,0 +1,7 @@
+{
+  "login": "div.login__wrapper > form > :nth-child(1) > input",
+  "pass": "div.login__wrapper > form > :nth-child(2) > input",
+  "days": ".page-nav__day",
+  "movie": ".movie",
+  "headerTitle": ".page-header__title"
+}

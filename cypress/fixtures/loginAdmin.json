@@ -1,0 +1,14 @@
+{
+  "user": {
+    "email": "qamid@qamid.ru",
+    "password": "qamid"
+  },
+  "falseUser": {
+    "email": "123@qamid.ru",
+    "password": "qamid"
+  },
+  "emptyPass": {
+    "email": "qamid@qamid.ru",
+    "password": null
+  }
+}
