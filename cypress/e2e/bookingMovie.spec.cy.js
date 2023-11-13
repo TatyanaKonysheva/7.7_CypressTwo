@@ -11,7 +11,7 @@ describe("Бронирование фильма в доступный зал", (
       cy.get(selector.pass).type(admin.user.password);
       cy.contains("Авторизоваться").click();
       return cy
-        .get(selector.movieTitle) //не работает, если убмраю в фикстуру
+        .get(".conf-step__movie-title") //не работает, если убмраю в фикстуру
         .eq(1)
         .invoke("text")
         .then((text) => {
