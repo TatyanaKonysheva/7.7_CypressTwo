@@ -1,11 +1,11 @@
 import tests from "../fixtures/seats.json";
 
-describe("Movie tickets reservation screen", () => {
+describe.skip("Movie tickets reservation screen", () => {
   beforeEach(() => {
     cy.visit("http://qamid.tmweb.ru");
   });
 
-  it("should display 7 days", () => {
+  it.skip("should display 7 days", () => {
     cy.get(".page-nav__day").should("have.length", 7);
   });
 

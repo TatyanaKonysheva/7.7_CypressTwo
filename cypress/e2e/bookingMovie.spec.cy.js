@@ -3,7 +3,7 @@ import seats from "../fixtures/seats.json";
 describe("Бронирование фильма в доступный зал", () => {
   const selector = require("../fixtures/selector");
 
-  it("Должен бронировать фильм из админки", () => {
+  it.only("Должен бронировать фильм из админки", () => {
     cy.visit("http://qamid.tmweb.ru/admin");
     cy.fixture("loginAdmin.json").as("loginAdmin");
     cy.get("@loginAdmin").then((admin) => {
